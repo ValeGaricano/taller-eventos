@@ -2,7 +2,7 @@ let div = document.getElementById('div');
 let parrafo = document.getElementById('parrafo');
 
 function mensajeDiv(e){
-    parrafo.innerHTML = "Hola! Soy el div";
+    parrafo.innerHTML = alert("Hola! Soy el div");
 }
 
 div.addEventListener('click', mensajeDiv);
