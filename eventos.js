@@ -1,6 +1,12 @@
 let div = document.getElementById('div');
 let parrafo = document.getElementById('parrafo');
 
-div.addEventListener('click', function mensaje(){
+function mensajeDiv(e){
     parrafo.innerHTML = alert("Hola! Soy el div");
-});
+}
+
+div.addEventListener('click', mensajeDiv);
+
+/*div.addEventListener('click', function(){
+    parrafo.innerHTML = alert("Hola! Soy el div");
+});*/
